@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+
+   <style>
+       body{
+           display: grid;
+           place-items: center;
+           background: royalblue;
+       }
+     
+       form{
+           background: white;
+           padding: 2rem;
+           border-radius: 10px;
+       }
+       input {
+           outline: none;
+            padding: 12px;
+       }
+
+       input[type=submit]{
+           background: rgb(45, 71, 148);
+           border: none;
+           padding: 12px;
+           color: white;
+           cursor: pointer;
+           text-transform: capitalize;
+       }
+
+       .red{
+           background-color: red;
+       }
+     .container{
+         display: none;
+
+     }
+
+     .show{
+         display: flex;
+         flex-direction: row;
+     }
+       
+       .element{
+           text-align: start;
+       }
+
+       .warning{
+           text-align: center;
+           text-transform: capitalize;
+       }
+
+       button{
+           position: relative;
+           top: 1rem;
+           padding: 12px;
+           background: red;
+           border: none;
+           border-radius: 5px;
+           text-transform: capitalize;
+           color: white;
+           cursor: pointer;
+           align-items: center;
+           text-align: center;
+           outline: none;
+        }
+        button:active{
+            transform: translate(2px, 2px);
+        }
+
+       /* .align{
+           text-align: start;
+           padding: 1rem;
+       } */
+
+   </style>
+
+<body>
+    <form class="form">
+        <p class="warning"></p>
+        <input type="text" name="" id="item">
+        <input type="submit" id="submit-btn" value="submit">
+        <div class="container">
+            <p class="element"></p>
+            <button>clear item</button>
+        </div>
+    </form>
+
+ 
+
+     
+
+
+
+
+
+<script src="/app.js"></script>    
+</body>
+</html>

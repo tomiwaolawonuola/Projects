@@ -1,0 +1,63 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  background: #fff url(./pexels-pixabay-276514.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  text-align: center;
+  width: 50%;
+  padding: 2rem;
+  margin-top: 10rem;
+  background: #c5e3f6;
+}
+
+#submit {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  border: 3px solid rebeccapurple;
+  color: rebeccapurple;
+  outline: none;
+}
+
+input[type="submit"] {
+  padding: 10px 10px;
+  width: 100px;
+  color: white;
+  background-color: rebeccapurple;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.message {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.background {
+  color: white;
+  background: rebeccapurple;
+  padding: 1rem;
+}
+
+button {
+  padding: 10px 2rem;
+  font-size: 15px;
+  color: rebeccapurple;
+  border: none;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+}
